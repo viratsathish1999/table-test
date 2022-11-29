@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <title>table</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=devive-width,initial-scale=1.0">
+     <style>
+	   thead tr{
+	   background-color:blue;
+	   color:white;}
+	   
+	   tr:nth-child(even){
+	   background-color:gray;
+	   }
+	   thead th{
+	   padding:15px 0;
+	   }
+	   
+	   table{
+	  
+	   width:50%;
+	   }
+	   
+	   tfoot tr{
+	   background-color:green;
+	   color:white;}
+	   
+	   tbody td{
+	   text-align:center;
+	    padding:15px 0;}
+		
+	   tfoot td{
+	   text-align:center;
+	   padding:15px 0;}
+	   
+	   .box{
+	     height:100vh;
+	   display:flex;
+	   align-items:center;
+	   justify-content:center;
+	   }
+	 
+	 </style>
+  </head>
+   <body>
+   
+    <div class="box">
+     <table>
+	   <thead>
+			  <tr>
+					<th>Item</th>
+					<th>Quantity</th>
+					<th>Price</th>
+					<th>Total</th>
+			  </tr>
+	    </thead>
+		<tbody>
+			  <tr>
+				   <td>Tent</td>
+				   <td>1</td>
+				   <td>$279.00</td>
+				   <td>$279.00</td>
+			  </tr>
+			  <tr>
+				   <td>Sleeping Bags</td>
+				   <td>2</td>
+				   <td>$159.95</td>
+				   <td>$319.90</td>
+			  </tr>
+			  <tr>
+				   <td>Camp Chairs</td>
+				   <td>2</td>
+				   <td>$39.50</td>
+				   <td>$79.50</td>
+			  </tr>
+		</tbody>
+	    <tfoot>
+		   <tr >
+		         
+				   <td colspan="3" style="text-align:right; padding-right:7px">Grand Total</td>
+				   
+				   <td>$667.90</td>
+			  </tr>
+		
+		</tfoot>
+	 
+	 
+	 
+	 </table>
+   </div>
+   
+   
+   </body>
+
+
+
+
+</html>
